@@ -70,6 +70,7 @@ class PlgContentArticleclass extends JPlugin
 
 		if (!empty($cssclass))
 		{
+			$item->introtext = '<div class="'.$cssclass.'">'.$item->introtext.'</div>';
 			$item->text = '<div class="'.$cssclass.'">'.$item->text.'</div>';
 		}
 	}

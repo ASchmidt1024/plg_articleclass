@@ -22,15 +22,4 @@
         <language tag="de-DE">de-DE.plg_content_articleclass.sys.ini</language>
     </languages>
 
-    <config>
-        <fields name="params">
-            <fieldset name="basic">
-                <field name="quote_class"
-                       label="PLG_CONTENT_ARTICLECLASS_PARAMS_ARTICLE_CLASS"
-                       description="PLG_CONTENT_ARTICLECLASS_PARAMS_ARTICLE_CLASS_DESC"
-                        />
-            </fieldset>
-        </fields>
-    </config>
-
 </extension>
