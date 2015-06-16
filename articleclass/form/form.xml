@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="attribs">
+        <fieldset name="custom" label="PLG_CONTENT_ARTICLECLASS_FIELDSET_ARTICLECLASS">
+            <field
+                    name="cssclass"
+                    type="text"
+                    label="PLG_CONTENT_ARTICLECLASS_FIELD_CSSCLASS_LABEL"
+                    description="PLG_CONTENT_ARTICLECLASS_FIELD_CSSCLASS_DESC"
+                    />
+        </fieldset>
+    </fields>
+</form>

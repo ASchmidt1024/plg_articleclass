@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content">
+    <name>plg_content_articleclass</name>
+    <author>Alexander Schmidt</author>
+    <creationDate>February 2015</creationDate>
+    <copyright>Copyright (C) 2015. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>alexander.schmidt@edvas.de</authorEmail>
+    <authorUrl>www.edvas.de</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_CONTENT_ARTICLECLASS_XML_DESCRIPTION</description>
+
+    <files folder="plugins/content/articleclass">
+        <filename plugin="articleclass">articleclass.php</filename>
+        <folder>form</folder>
+    </files>
+
+    <languages folder="administrator/languages">
+        <language tag="en-GB">en-GB/en-GB.plg_content_articleclass.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_content_articleclass.sys.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_content_articleclass.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_content_articleclass.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="quote_class"
+                       label="PLG_CONTENT_ARTICLECLASS_PARAMS_ARTICLE_CLASS"
+                       description="PLG_CONTENT_ARTICLECLASS_PARAMS_ARTICLE_CLASS_DESC"
+                        />
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
